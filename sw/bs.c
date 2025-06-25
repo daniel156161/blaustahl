@@ -119,7 +119,12 @@ int main(int argc, char *argv[]) {
 
 				if (usb_dh == NULL) {
 					printf("using bus %i addr %i\n", bus, addr);
-					libusb_open(dev, &usb_dh);
+					int err = libusb_open(dev, &usb_dh);
+                                        if (err != LIBUSB_SUCCESS)
+                                        {
+                                                fprintf(stderr, "usb device open error: '%s'\n", libusb_strerror(err));
+                                                exit(1);
+                                        }
 				}
 
 			}
