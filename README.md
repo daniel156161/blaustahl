@@ -4,7 +4,7 @@ The Blaustahl USB dongle provides long-term storage for about 8000 characters of
 
 ![Blaustahl](https://github.com/machdyne/blaustahl/blob/251dba51e97cc46e1b7918198aa66e48cc741dd9/blaustahl.png)
 
-This repo contains schematics, firmware and a 3D-printable case.
+This repo contains schematics, PCB layouts, firmware and a 3D-printable case.
 
 Find usage instructions and more information on the [Blaustahl product page](https://machdyne.com/product/blaustahl-storage-device/).
 
@@ -176,3 +176,5 @@ One way to achieve this today is to load the Blaustahl firmware onto a Raspberry
 ## License
 
 The contents of this repo are released under the [Lone Dynamics Open License](LICENSE.md).
+
+Note: You can use these designs for commercial purposes but we ask that instead of producing exact clones, that you either replace our trademarks and logos with your own or add your own next to ours.
